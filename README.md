@@ -37,6 +37,8 @@ Once you are ready to submit the project to your instructor, you must push your
 local reposity to the Github repository. Again, use the "Source Control" button
 and "push" (or "sync") your local repository to the Github repository. You can
 push changes up to the due date for the assignment. Once it is pushed, the
-reposity is available to your instructor for grading. Note that pushes after the
-due date are permitted, however you instructor only receives the latest push that
+repository is available to your instructor for grading. Note that pushes after the
+due date are permitted, however you instructor only reviews the latest push that
 was done prior to the due date and time.
+
+![Side Panel](side-panel.png)
