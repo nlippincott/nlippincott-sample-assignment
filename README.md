@@ -29,6 +29,10 @@ button in the left panel. First, you need to commit your changes to the project.
 This saves your project changes to the local repository, but does not submit to
 your Github repository (you instructor will only see your Github repository).
 
+When you commit changes to your project, an editor will open for you to enter a 
+comment that briefly describes the changes you made. Enter the comment on the first
+line and close the editor to complete the commit.
+
 Once you are ready to submit the project to your instructor, you must push your
 local reposity to the Github repository. Again, use the "Source Control" button
 and "push" (or "sync") your local repository to the Github repository. You can
