@@ -19,7 +19,8 @@ The sum is 37.
 ```
 
 Starter code is provided in file *sample.cpp*. Complete your assignment with
-this source file.
+this source file. Replace the comment at line 1 with a comment to include
+your name.
 
 ## Compiling and Running Your Program
 
