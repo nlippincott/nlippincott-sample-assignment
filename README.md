@@ -23,11 +23,6 @@ this source file.
 
 ## Compiling and Running Your Program
 
-<div style="float: right; padding-left: 1ex;">
-<img style="width: 75%;" src="start-debugging.png" alt="Start Debugging" /> <br />
-<img style="width: 75%;" src="side-panel-run.png" alt="Side Panel, Run Button" />
-</div>
-
 Your instructor has set up customized *Codespaces* templates upon which all
 assignments for the course are based.
 The templates include actions to build and run your program/project with the
@@ -43,6 +38,10 @@ green *Start Debugging* button
 and a drop-down box to the right. There
 is usually no need to change the option in the drop-down box (unless directed
 otherwise by your instructor or the particular assignment instructions).
+
+![Start Debugging](start-debugging.png)
+
+![Side Panel, Run Button](side-panel-run.png)
 
 Depending on the template upon which the project is based, the *Start Debugging*
 button might build and run the file currently opened in the editor, or it
@@ -72,10 +71,6 @@ environment) or by the command line.
 
 ### Commit and Push with the IDE
 
-<div style="float: right; padding-left: 1ex;">
-<img style="width: 75%;" src="source-control.png" alt="Start Debugging" />
-</div>
-
 Open the *Source Control* panel with the button on the left-side toolbar.
 You will see a message box with a *Commit* button underneath.
 Enter a short message that describes the changes you made (the message content
@@ -84,14 +79,14 @@ Then, click *Commit*. This saves the changes to the local Codespace repository;
 the changes are *not* saved to the upstream Github repository, and as such
 are not yet submitted to your instructor.
 
+![Start Debugging](source-control.png)
+
 If you forget to enter a message before you click *Commit*, Codespaces will
 open an editor window for you to enter the message. If this happens, simply
 enter your message in the first line of the editor window and close it.
 That should complete the commit process.
 
-<div style="float: right; padding-left: 1ex;">
-<img style="width: 75%;" src="sync-changes.png" alt="Sync Changes" />
-</div>
+![Sync Changes](sync-changes.png)
 
 After a successful commit, you need to push your changes to the upstream
 repository. The commit button will have changed to read *Sync Changes*.
@@ -110,10 +105,6 @@ git push
 
 ### Resolving Conflicts
 
-<div style="float: right; padding-left: 1ex;">
-<img style="width: 75%;" src="sync-changes-2.png" alt="Sync Changes" />
-</div>
-
 Occasionally you may encounter an error when using the *Sync Changes* button
 or the `git push` command. This may happen when
 changes were made to the upstream repository that are not in your local
@@ -123,6 +114,8 @@ on the same repository.)
 When this happens, you will see an up-arrow and down-arrow on the 
 *Sync Changes* button and you will get an error message while attempting
 to push.
+
+![Sync Changes](sync-changes-2.png)
 
 Most often this can be resolved by doing a *pull* with a *rebase*. This will
 pull the changes from the upstream repository to the local repository, then
